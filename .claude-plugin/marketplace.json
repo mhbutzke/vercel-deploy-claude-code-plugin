@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "vercel-deploy",
-      "source": "../",
+      "source": "./",
       "description": "Deploy applications to Vercel with deployment monitoring, log analysis, and error detection",
       "version": "1.0.0",
       "author": {

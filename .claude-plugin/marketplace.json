@@ -1,0 +1,24 @@
+{
+  "name": "vercel-plugins",
+  "owner": {
+    "name": "Vercel Labs"
+  },
+  "metadata": {
+    "description": "Official Vercel plugins for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "vercel-deploy",
+      "source": "../",
+      "description": "Deploy applications to Vercel with deployment monitoring, log analysis, and error detection",
+      "version": "1.0.0",
+      "author": {
+        "name": "Vercel Labs"
+      },
+      "repository": "https://github.com/vercel-labs/vercel-deploy-claude-code-plugin",
+      "license": "MIT",
+      "keywords": ["vercel", "deployment", "hosting", "ci-cd", "web", "serverless"]
+    }
+  ]
+}

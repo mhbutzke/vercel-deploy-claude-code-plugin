@@ -12,18 +12,28 @@ A Claude Code plugin that enables seamless deployment to Vercel directly from yo
 
 ## Installation
 
-### From Plugin Marketplace
+### Option 1: Direct Plugin Install (Recommended)
 
 ```bash
-claude /plugin marketplace add https://github.com/vercel-labs/vercel-deploy-claude-code-plugin
+/plugin install vercel-labs/vercel-deploy-claude-code-plugin
 ```
 
-### Manual Installation
+### Option 2: Via Marketplace
+
+```bash
+# Add the marketplace
+/plugin marketplace add vercel-labs/vercel-deploy-claude-code-plugin
+
+# Install the plugin
+/plugin install vercel-deploy@vercel-plugins
+```
+
+### Option 3: Local Installation
 
 1. Clone this repository
 2. Add the plugin to Claude Code:
 ```bash
-claude /plugin add /path/to/vercel-deploy-claude-code-plugin
+/plugin install /path/to/vercel-deploy-claude-code-plugin
 ```
 
 ## Prerequisites

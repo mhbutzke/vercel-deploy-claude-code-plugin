@@ -1,7 +1,7 @@
 {
   "name": "vercel-plugins",
   "owner": {
-    "name": "Vercel Labs"
+    "name": "Vercel"
   },
   "metadata": {
     "description": "Official Vercel plugins for Claude Code",
@@ -9,12 +9,12 @@
   },
   "plugins": [
     {
-      "name": "vercel-deploy",
+      "name": "vercel",
       "source": "./",
       "description": "Deploy applications to Vercel with deployment monitoring, log analysis, and error detection",
       "version": "1.0.0",
       "author": {
-        "name": "Vercel Labs"
+        "name": "Vercel"
       },
       "repository": "https://github.com/vercel-labs/vercel-deploy-claude-code-plugin",
       "license": "MIT",

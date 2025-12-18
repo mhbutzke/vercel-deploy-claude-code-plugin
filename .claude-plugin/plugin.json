@@ -1,9 +1,9 @@
 {
-  "name": "vercel-deploy",
+  "name": "vercel",
   "version": "1.0.0",
   "description": "Deploy applications to Vercel with deployment monitoring, log analysis, and error detection",
   "author": {
-    "name": "Vercel Labs"
+    "name": "Vercel"
   },
   "repository": "https://github.com/vercel-labs/vercel-deploy-claude-code-plugin",
   "license": "MIT",

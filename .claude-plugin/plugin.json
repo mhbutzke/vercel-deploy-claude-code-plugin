@@ -1,13 +1,5 @@
 {
   "name": "vercel",
-  "version": "1.0.0",
-  "description": "Deploy applications to Vercel with deployment monitoring, log analysis, and error detection",
-  "author": {
-    "name": "Vercel"
-  },
-  "repository": "https://github.com/vercel/vercel-deploy-claude-code-plugin",
-  "license": "MIT",
-  "keywords": ["vercel", "deployment", "hosting", "ci-cd", "web", "serverless"],
-  "skills": "./skills/",
-  "commands": "./commands/"
+  "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Claude Code.",
+  "homepage": "https://github.com/vercel/vercel-deploy-claude-code-plugin"
 }
